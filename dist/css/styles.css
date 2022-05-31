@@ -24,7 +24,13 @@ main {
 }
 @media (min-width: 992px) {
   main {
-    max-width: 28vw;
+    max-width: 40vw;
+    padding: 20px;
+  }
+}
+@media (min-width: 1200px) {
+  main {
+    max-width: 32vw;
     padding: 20px;
   }
 }

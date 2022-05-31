@@ -55,7 +55,12 @@ main {
 
   // Media Query
   @include media-query(medium) {
-    max-width: 28vw;
+    max-width: 40vw;
+    padding: 20px;
+  }
+
+  @include media-query(large) {
+    max-width: 32vw;
     padding: 20px;
   }
 }
